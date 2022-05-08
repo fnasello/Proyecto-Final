@@ -1,0 +1,16 @@
+/* Index */
+@import "colores";
+
+img {
+    width: 250px;
+    height: 400px;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    .card-body, h5, p {
+        color: $colorG;
+    }
+}    

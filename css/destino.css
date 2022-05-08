@@ -1,0 +1,40 @@
+/* Index */
+img {
+  width: 250px;
+  height: 400px;
+}
+
+article {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+article .card-body, article h5, article p {
+  color: #000000;
+}
+
+/* POLITICA INTERNACIONAL */
+.post {
+  background-color: #ffffff;
+}
+
+/* Biblioteca */
+.biblioteca {
+  display: flex;
+  justify-content: center;
+}
+.biblioteca .articulo {
+  display: grid;
+  grid-area: auto;
+}
+.biblioteca .text-bis {
+  display: inline-block;
+}
+
+/*Generales*/
+h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=destino.css.map */

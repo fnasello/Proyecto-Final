@@ -1,0 +1,16 @@
+/* Biblioteca */
+
+// Anidamiento
+.biblioteca {
+    display: flex;
+    justify-content: center;
+    .articulo {
+        display: grid;
+        grid-area: auto;
+    }
+    .text-bis {
+        display: inline-block;
+    }   
+}
+
+
