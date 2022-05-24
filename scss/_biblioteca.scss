@@ -1,9 +1,9 @@
 /* Biblioteca */
 
 // Anidamiento
-.biblioteca {
+#biblioteca {
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     .articulo {
         display: grid;
         grid-area: auto;

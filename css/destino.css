@@ -19,15 +19,14 @@ article .card-body, article h5, article p {
 }
 
 /* Biblioteca */
-.biblioteca {
+#biblioteca {
   display: flex;
-  justify-content: center;
 }
-.biblioteca .articulo {
+#biblioteca .articulo {
   display: grid;
   grid-area: auto;
 }
-.biblioteca .text-bis {
+#biblioteca .text-bis {
   display: inline-block;
 }
 
@@ -35,6 +34,10 @@ article .card-body, article h5, article p {
 h1 {
   text-align: center;
   margin: 10px;
+}
+
+body {
+  background-image: url(../assets/img/soldados-equipo-guerra.jpg);
 }
 
 /*# sourceMappingURL=destino.css.map */
